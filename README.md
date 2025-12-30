@@ -31,3 +31,21 @@ This web application helps manage students, courses, subjects, attendance, and m
 
 ## 📂 Project Structure
 
+student_management_system/
+│
+├── sms/
+│ ├── sms/
+│ │ ├── settings.py
+│ │ ├── urls.py
+│ │ └── wsgi.py
+│ ├── students/
+│ │ ├── models.py
+│ │ ├── views.py
+│ │ ├── admin.py
+│ │ ├── forms.py
+│ │ ├── urls.py
+│ │ └── templates/
+│ └── manage.py
+│
+└── db.sqlite3
+
